@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "382267c5c2b24ca82fa50379084e1d27",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3449,6 +3449,43 @@
             "time": "2016-01-20T08:20:44+00:00"
         },
         {
+            "name": "juanchorossi/oca-php-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/juanchorossi/OCA-PHP-API.git",
+                "reference": "a9bf2bebd4da03571bda25714614397feae6de92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/juanchorossi/OCA-PHP-API/zipball/a9bf2bebd4da03571bda25714614397feae6de92",
+                "reference": "a9bf2bebd4da03571bda25714614397feae6de92",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "oca.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Juancho Rossi",
+                    "email": "juanchorossi@gmail.com"
+                }
+            ],
+            "description": "PHP class for OCA Express Pak",
+            "keywords": [
+                "oca",
+                "oca express pak"
+            ],
+            "time": "2016-02-02T22:36:59+00:00"
+        },
+        {
             "name": "mockery/mockery",
             "version": "1.2.2",
             "source": {
@@ -4938,7 +4975,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "juanchorossi/oca-php-api": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
